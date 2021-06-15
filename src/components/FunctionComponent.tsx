@@ -38,11 +38,11 @@ function Counter() {
   return (
     <>
       Count: {state.count}
-      <button onClick={() => dispatch({ type: "decrement", payload: "5" })}>
-        ADD
+      <button onClick={() => dispatch({ type: "decrement", payload: "3" })}>
+        sub
       </button>
       <button onClick={() => dispatch({ type: "increment", payload: 5 })}>
-        SUB
+        add
       </button>
     </>
   );

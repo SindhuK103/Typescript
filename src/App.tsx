@@ -12,7 +12,7 @@ function App() {
     <h2> Typescript example </h2>
     <Head/>
     <Switch>
-      <Route path ="/" exact component={ClassCom}/>
+      <Route path ="/ClassCom" exact component={ClassCom}/>
       <Route path ="/Counter" exact component={Counter}/>
       </Switch>
     </div>

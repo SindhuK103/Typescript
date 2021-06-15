@@ -23,7 +23,7 @@ import React from 'react';
   };
 
   class ClassCom extends React.Component< MyProps,MyState > {
-    state = { count: 3 };
+    state = { count: 4};
     render() {
       return (
         <div onClick={() => this.increment(1)}>
